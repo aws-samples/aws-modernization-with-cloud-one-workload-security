@@ -1,8 +1,8 @@
 ---
 title: "Event-Based Task setup"
 chapter: false
-weight: 33
-pre: "<b>4.3 </b>"
+weight: 32
+pre: "<b>4.2 </b>"
 ---
 
 ### Automatically perform tasks when a computer initiates activation

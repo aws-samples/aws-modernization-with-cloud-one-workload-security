@@ -1,8 +1,8 @@
 ---
 title: "Integrate AWS with Cloud One"
 chapter: false
-weight: 32
-pre: "<b>4.2 </b>"
+weight: 31
+pre: "<b>4.1 </b>"
 ---
 
 ### Integrating AWS with Workload Security
@@ -16,7 +16,7 @@ A Cloud One Account is required to proceed. If you have not registered for a Clo
 ----
 
 #### 1. Log in to [Cloud One](https://cloudone.trendmicro.com/)
-- Select the **Workload Security** tile
+- Select the **Endpoint & Workload Security** tile
 
 ![C1WS](/images/Login_C1.png) 
 
