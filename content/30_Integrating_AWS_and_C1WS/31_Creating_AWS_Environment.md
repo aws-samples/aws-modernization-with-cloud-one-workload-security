@@ -1,8 +1,8 @@
 ---
 title: "Creating the base AWS Environment"
 chapter: false
-weight: 31
-pre: "<b>4.1 </b>"
+weight: 34
+pre: "<b>4.4 </b>"
 ---
 
 ---
@@ -99,4 +99,14 @@ Leave fields as default and click **Next**, or optionally define tags to the env
 
 ---
 
-> **Now it's time for us to integrate Cloud One Workload Security with AWS :cloud: :rocket:**
+#### 8. Verify your server fleet is now managed and has the appropriate security policy automatically assigned.
+- Navigate to **Cloud One - Workload Security**.
+- Click the **Computers** tab.
+
+Here you get complete visibility into the server fleet status. (Optional) Even more information can be displayed by clicking **columns**.
+
+![ssm](/images/ssm6.png)
+
+---
+
+> **Et voila, we just automated the deployment of multiple Workload Security Agents in our AWS environment** 🤩 :cloud: 🤖 :rocket:
