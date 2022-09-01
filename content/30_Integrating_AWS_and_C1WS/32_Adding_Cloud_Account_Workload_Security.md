@@ -9,7 +9,7 @@ pre: "<b>4.1 </b>"
 
 {{% notice info %}}
 <p style='text-align: left;'>
-A Cloud One Account is required to proceed. If you have not registered for a Cloud One account please go <a href="https://cloudone.trendmicro.com/register" target="_top">here.</a>
+A Cloud One Account is required to proceed. If you have not registered for a Cloud One account please go <a href="https://www.trendmicro.com/en_us/business/campaigns/cloud-one-trial.html?utm_campaign=RGEV2022_Cloud-One_SMKT&utm_medium=Webinar&utm_source=Immersion-Day_Workload_PR&utm_content=Cloud-One-Trial" target="_top">here.</a>
 </p>
 {{% /notice %}}
 
