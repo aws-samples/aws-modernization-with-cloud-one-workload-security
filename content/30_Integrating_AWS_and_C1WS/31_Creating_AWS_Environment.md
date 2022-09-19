@@ -1,8 +1,8 @@
 ---
 title: "Creating the base AWS Environment"
 chapter: false
-weight: 34
-pre: "<b>4.4 </b>"
+weight: 35
+pre: "<b>4.5 </b>"
 ---
 
 ---
