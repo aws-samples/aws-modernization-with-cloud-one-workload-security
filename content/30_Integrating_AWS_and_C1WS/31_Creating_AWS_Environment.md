@@ -11,7 +11,7 @@ pre: "<b>4.1 </b>"
 
 You can use the CloudFormation template below to create the infrastructure in the same AZ with the 2 subnets, NAT Gateway, Internet Gateway, and EC2 instances.
 
-[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=workload-security-workshop&templateURL=https://aws-workshop-c1as-cft-templates.s3.amazonaws.com/CFT_Workload_Security_Workshop.yml)
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=workload-security-workshop&templateURL=https://immersionday-workshops-trendmicro.s3.amazonaws.com/workload-security/CFT_Workload_Security_Workshop.yml)
 
 ---
 
