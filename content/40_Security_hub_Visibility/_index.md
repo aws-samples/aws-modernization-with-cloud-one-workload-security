@@ -30,7 +30,7 @@ This example application creates the custom integration with AWS Security Hub. W
 
 #### 2. Now launch the provided CloudFormation template below.
 
-[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=workload-security-hub&templateURL=https://aws-workshop-c1as-cft-templates.s3.amazonaws.com/sec-hub.yaml) 
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=workload-security-hub&templateURL=https://immersionday-workshops-trendmicro.s3.amazonaws.com/workload-security/sec-hub.yaml) 
 
 - Click **Next**.
 

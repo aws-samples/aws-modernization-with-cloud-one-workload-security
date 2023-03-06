@@ -36,6 +36,8 @@ Leave the default selections and scroll to the bottom of the bash script provide
 
 ---
 
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=workload-security-workshop&templateURL=https://immersionday-workshops-trendmicro.s3.amazonaws.com/workload-security/c1-ws-ssm.yaml)
+
 #### 2. In the AWS console, navigate to **Systems Manager**.
 - In the left-hand menu, under Application Management select **Parameter Store**.
 ![ssm](/images/create_param.png)
