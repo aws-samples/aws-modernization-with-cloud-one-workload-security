@@ -36,107 +36,54 @@ Leave the default selections and scroll to the bottom of the bash script provide
 
 ---
 
-[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=workload-security-workshop&templateURL=https://immersionday-workshops-trendmicro.s3.amazonaws.com/workload-security/c1-ws-ssm.yaml)
+#### 2. Lets launch the stack to input parameters we collected from Cloud One for Parameter Store **Systems Manager**.
 
-#### 2. In the AWS console, navigate to **Systems Manager**.
-- In the left-hand menu, under Application Management select **Parameter Store**.
-![ssm](/images/create_param.png)
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=workload-security-workshop-SSM&templateURL=https://immersionday-workshops-trendmicro.s3.amazonaws.com/workload-security/c1-ws-ssm.yaml)
 
-#### 2.1 We need to create 4 parameters using the values copied previously.
+- Click on **Next**.
+![ssm](/images/SSMstack1.png)
 
-#### Parameter 1:
+#### 2.1 Lets input the parameters.
 
-- Click **Create Parameter**.
-- Name: <code>dsManagerUrl</code>
-- Value: <code>https://app.deepsecurity.trendmicro.com:443</code>
-- Click **Create Parameter**.
-![ssm](/images/create_param4.png)
 
----
 
-#### Parameter 2:
+- Input **activation URL** for **dsActivationUrl** Parameter
 
-- Click **Create Parameter**.
-- Name: <code>dsActivationUrl</code>
-- Value: **<code>dsm://agents.deepsecurity.trendmicro.com:443/</code>**
-- Click **Create Parameter**.
-![ssm](/images/create_param1.png)
+- Input **manager URL** for **dsManagerUrl** Parameter
 
----
+- Input **tenantID** for **dsTenantId** Parameter
 
-#### Parameter 3:
+- Input **token** for **dsToken** Parameter
 
-- Click **Create Parameter**.
-- Name: <code>dsTenantId</code>
-- Value: **<code> Paste the tenantID value copied from step 1.1 </code>**
-- Click **Create Parameter**.
-![ssm](/images/create_param2.png)
+![ssm](/images/SSMStack2.png)
 
----
+#### 2.2 Once the parameters are filled in, click on **Next**.
 
-#### Parameter 4:
+![ssm](/images/SSMStack3.png)
 
-- Click **Create Parameter**.
-- Name: <code>dsToken</code>
-- Value: **<code> Paste the token value copied from step 1.1 </code>**
-- Click **Create Parameter**.
-![ssm](/images/create_param3.png)
+- Click on **Next**
 
-#### Your parameter store should have the following 4 parameters created now.
-![ssm](/images/create_param5.png)
+![ssm](/images/SSMStack4.png)
+
+- Click on **Submit**
+
+![ssm](/images/SSMStack5.png)
+
+- Please wait for the CloudFormation template to complete.
+
+![ssm](/images/SSMStack6.png)
+
+- Once the Cloudformation is complete, please navigate to System Manager- Parameter Store. Within Parameter Store we will see the four parameters that was created.
+
+![ssm](/images/SSMStack7.png)
+
+
+
+
 
 ---
 
-#### 3. In Systems Manager, on the left-hand menu, under Node Management select **Distributor**.
-- Select **Third Party** tab.
-- Search: <code>TrendMicro-CloudOne-WorkloadSecurity</code>
-- Select the Package.
-- Click on **Install on a Schedule**.
-![ssm](/images/ssm1.png)
-
----
-
-#### 4. Create Association.
-
-Provide association details.
-
-- Name: <code>workload-security-distributor-workshop</code>
-
-Document.
-
-- Do not edit the document Section.
-
-Parameters.
-
-- Installation Type: **In-place update**
-
-Target Selection.
-
-- Target Slection: **Specify instance tags**
-- Tag Key: <code>Project</code>
-- Tag Key: <code>Cloud One Demo Lab</code>
-- Click **Add**.
-
-Specify Schedule.
-
-- Select **No Schedule**.
-
-Leave the default selection for the rest.
-
-- Click **Create Association**.
-
-![ssm](/images/ssm2.png)
-![ssm](/images/ssm3.png)
-![ssm](/images/ssm4.png)
-
----
-
-#### After a few minutes, refresh the page to ensure the deployment association is successful.
-![ssm](/images/ssm5.png)
-
----
-
-#### 5. Verify your server fleet is now managed and has the appropriate security policy automatically assigned.
+#### 3. Verify your server fleet is now managed and has the appropriate security policy automatically assigned.
 - Navigate to **Cloud One - Workload Security**.
 - Click the **Computers** tab.
 
