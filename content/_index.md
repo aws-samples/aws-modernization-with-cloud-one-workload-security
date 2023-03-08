@@ -6,8 +6,8 @@ weight: 1
 
 # WELCOME!
 
-## Streamline Security Operations and Management with Trend Micro Cloud One
-![TrendMicro](/images/logo.png)
+## Streamline Security Operations and Management with Trend Cloud One
+![TrendMicro](/images/LogoRed.png)
 
 In this workshop, you’ll learn how to leverage Cloud One - Workload Security to enforce the detection and protection policy
 (application control, anti-malware, IPS, firewall, integrity monitoring, and log inspection)

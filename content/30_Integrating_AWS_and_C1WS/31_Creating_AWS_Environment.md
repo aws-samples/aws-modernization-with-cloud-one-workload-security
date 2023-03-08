@@ -99,13 +99,13 @@ Leave fields as default and click **Next**, or optionally define tags to the env
 
 ---
 
-#### 8. Verify your server fleet is now managed and has the appropriate security policy automatically assigned.
+#### 8. Verify your server fleet is now showing up within Cloud One Workload Security.
 - Navigate to **Cloud One - Workload Security**.
 - Click the **Computers** tab.
 
 Here you get complete visibility into the server fleet status. (Optional) Even more information can be displayed by clicking **columns**.
 
-![ssm](/images/ssm6.png)
+![ssm](/images/BaseEnv.png)
 
 ---
 

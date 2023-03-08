@@ -33,7 +33,7 @@ We have two ways to help customers with a free trial:
 
 - **1.** Log in to your AWS account: [AWS Console](https://console.aws.amazon.com/)
 
-- **2.** Go to [AWS Marketplace Subscriptions - Trend Micro - Cloud One](https://aws.amazon.com/marketplace/pp/prodview-g232pyu6l55l4?trk=el_a134p000003yrYeAAI&trkCampaign=AWSMP_pdp_dev_x_dg&sc_channel=el&sc_campaign=el_awsmp_mult&sc_outcome=Marketplace), then click "Continue to Subscribe"
+- **2.** Go to [AWS Marketplace Subscriptions - Trend - Cloud One](https://aws.amazon.com/marketplace/pp/prodview-g232pyu6l55l4?trk=el_a134p000003yrYeAAI&trkCampaign=AWSMP_pdp_dev_x_dg&sc_channel=el&sc_campaign=el_awsmp_mult&sc_outcome=Marketplace), then click "Continue to Subscribe"
 ![subscribe](/images/subscribe1.png)
 
 - **3.** Click on "Subscribe"
@@ -102,7 +102,7 @@ We have two ways to help customers with a free trial:
 
 ![C1C](/images/c1c_6.png)
 
-**8.** Now you are log in Trend Micro Cloud One Platform 
+**8.** Now you are log in Trend Cloud One Platform 
 
 ![C1C](/images/c1c_7.png)
 
