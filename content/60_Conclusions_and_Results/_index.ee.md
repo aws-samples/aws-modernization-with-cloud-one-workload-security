@@ -7,7 +7,7 @@ pre: "<b>7. </b>"
 
 # Conclusions and Results
 
-In this workshop, you learned how you can automate and bolster your server fleet security using Trend Micro Cloud One - Workload Security in AWS. Workload Security can be easily integrated with your current configuration, event, and orchestration tools to provide advanced threat protection.
+In this workshop, you learned how you can automate and bolster your server fleet security using Trend Cloud One - Workload Security in AWS. Workload Security can be easily integrated with your current configuration, event, and orchestration tools to provide advanced threat protection.
 
 ![conclusion](/images/end.png)
 
@@ -19,6 +19,6 @@ Get started with Workload Security and embrace the robust server protection offe
 
 
 
-For more information on Workload Security, please visit [Trend Micro Cloud One™ – Workload Security](https://www.trendmicro.com/en_ae/business/products/hybrid-cloud/cloud-one-workload-security.html)
+For more information on Workload Security, please visit [Trend Cloud One™ – Workload Security](https://www.trendmicro.com/en_ae/business/products/hybrid-cloud/cloud-one-workload-security.html)
 
-Want to learn about the other valuable Trend Micro Cloud One solutions? please visit [Trend Micro Cloud One™](https://www.trendmicro.com/cloudone)
+Want to learn about the other valuable Trend Micro Cloud One solutions? please visit [Trend Cloud One™](https://www.trendmicro.com/cloudone)
