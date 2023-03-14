@@ -19,3 +19,5 @@ We will use the following topology in the AWS environment for our lab.
 ![base](/images/C1NS_AWS_enviroment.png) 
 
 
+
+

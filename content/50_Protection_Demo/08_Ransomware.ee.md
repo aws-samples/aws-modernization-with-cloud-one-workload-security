@@ -35,7 +35,7 @@ pre: "<b>6.3 </b>"
 - Click **Save**.
 
 ![WS_Policy](/images/rs18.png)
-![WS_Policy](/images/rs12.1.png)
+![WS_Policy](/images/rs12.png)
 
 ---
 
