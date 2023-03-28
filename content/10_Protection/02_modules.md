@@ -34,7 +34,7 @@ The Firewall module is for controlling incoming and outgoing traffic and also ma
 
 ### Web Reputation
 
-The majority of today’s attacks start with a visit to a URL that’s carrying a malicious payload. The Web Reputation module provides content filtering by blocking access to malicious domains and known communication and control (C&C) servers used by criminals. The Web Reputation module taps into the Trend Micro Smart Protection Network, which identifies new threats quickly and accurately.
+The majority of today’s attacks start with a visit to a URL that’s carrying a malicious payload. The Web Reputation module checks the credibility of websites, and blocks access to malicious domains and known communication and control (C&C) servers used by criminals. The Web Reputation module taps into the Trend Micro Smart Protection Network, which identifies new threats quickly and accurately.
 
 ---
 
